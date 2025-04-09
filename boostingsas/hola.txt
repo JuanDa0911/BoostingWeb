@@ -1,0 +1,16 @@
+<Route path="/servicios_temp/generador" element={<Generador />} />
+      <Route path="/servicios_temp/lineas" element={<Lineas />} />
+      <Route path="/servicios_temp/actuador" element={<Actuador />} />
+      <Route path="/servicios_temp/transformador" element={<Transformador />} />
+      <Route path="/servicios_temp/cables" element={<Cables />} />
+      <Route path="/servicios_temp/capacitaciones" element={<Capacitaciones />} />
+      <Route path="/servicios_temp/motor" element={<Motor />} />
+
+
+      import Generador from './pages/servicios_temp/Generador';
+import Lineas from './pages/servicios_temp/Lineas';
+import Actuador from './pages/servicios_temp/Actuador';
+import Transformador from './pages/servicios_temp/Transformador';
+import Cables from './pages/servicios_temp/Cables';
+import Capacitaciones from './pages/servicios_temp/Capacitaciones';
+import Motor from './pages/servicios_temp/Motor';
